@@ -2,58 +2,134 @@
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: 'Poppins', sans-serif;
-}
+
 
 .top-banner{
     width: 100%;
-    height: 700px; 
+    height: 700px;
+    position: relative;
+    background-image: url("protimage/flood.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(protimage/flood.jpg);
+}
+
+.child-div{
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    color: white;
+    display: flex;
     justify-content: center;
-    position: absolute;
+    align-items: center;
+    flex-direction: column;
+   
+}
+#header-id{
+    font-size: 80px;
+}
+
+.hero-btn1{
+    padding:16px ;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: tomato;
+    border-radius: 12px;
+    
+}
+
+.mid-banner{
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    margin-bottom: 180px;
+}
+.header-id{
+    font-size: 45px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    padding-left: 40%;
+    
+}
+.para-id{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana;
+    font-size: medium;
+    padding: 20px 380px;
+    color: black;
 
 }
-.top-banner h1{
-    font-size: 50px;
-    text-align: center;
-    color: white;
-    margin: 0;
-    color: tomato;
-    text-align: center;
-    color: white;
+.warper-div{
     
-    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.donation-div
+{
     
+    width:150px;
+    height: 150px;
+   
+    padding-top:50px ;
+    padding-left: 30px;
+    box-sizing:border-box ;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3cddc;
+}
+.donation1-div{
+    width:150px;
+    height: 150px;
+    background-color: #F8B5D0 ;
+    box-sizing:border-box ;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-top:50px ;
+    border: 5px solid red;
  
-
 }
-.top-banner p{
-    text-align: center;
-    color: white;
-    font-weight: normal;
+    
+    
+  
+    
+
+input{
+    width: 80%;
+    padding: 6px 20px;
+    margin: 38px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
     font-size: 15px;
-    font-family:Verdana;
+    font-family: Verdana;
+    letter-spacing: 1px;
+    text-align: center;
+    
+}
+.another-div{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    
 }
 .hero-btn{
-    display: inline-block;
-    text-decoration: none;
-    background-color: rgb(255, 60, 26);
-    padding: 12px 34px;
-    font-size: 13px;
-    border: none;
-    border-radius: 12px;
-    margin-left: 45%;
-    font-size: 15px;
+    padding:16px ;
+    font-size: 24px;
     font-weight: bold;
-}
-.mid-banner{
-    height: 400px;
-    width: 100%;
-}
-.mid-banner h1{
-    text-decoration: none;
-    text-align: center;
-    color: black;
+    background-color: tomato;
+    border-radius: 12px;
+    color: white;
+
 }
