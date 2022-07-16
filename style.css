@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "poppins", sans-serif;
 }
 
 
@@ -11,13 +12,14 @@
     background-image: url("protimage/flood.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .child-div{
     width: 100%;
-    height: 100%;
+    height: 700px;
     font-size: 24px;
-    color: white;
+    color: rgb(242, 250, 250);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,46 +28,57 @@
 }
 #header-id{
     font-size: 80px;
+    font-weight: bold;
+    font-family: "poppines", sans-serif;
 }
 
 .hero-btn1{
     padding:16px ;
     font-size: 24px;
     font-weight: bold;
-    background-color: tomato;
+    background-color:  rgb(249, 55, 21);
     border-radius: 12px;
+    color: white;
     
 }
 
 .mid-banner{
     width: 100%;
-    height: 600px;
+    height: auto;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 180px;
+    padding-top: 120px;
+   
+    
+    
 }
 .header-id{
-    font-size: 45px;
+    font-size: 35px;
     color: black;
     align-items: center;
     justify-content: center;
-    margin-top: 120px;
-    padding-left: 40%;
+    padding-top: 50px;
+    text-align: center;
     
 }
 .para-id{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     font-family: Verdana;
-    font-size: medium;
+    font-size: 25px;
     padding: 20px 380px;
     color: black;
+    justify-content: center ;
+    align-items: center;
+    text-align: left;
+    font-family: Verdana;
+    
 
 }
 .warper-div{
     
     display: flex;
     justify-content: center;
+
+    
 }
 
 .donation-div
@@ -73,22 +86,23 @@
     
     width:150px;
     height: 150px;
-   
-    padding-top:50px ;
     padding-left: 30px;
+    padding-top:50px ;
     box-sizing:border-box ;
+    border-radius: 6px;
     font-size: 20px;
     font-weight: bold;
     margin: 20px;
     align-items: center;
     justify-content: center;
-    background-color: #f3cddc;
+    background-color: #dae4e5;
 }
 .donation1-div{
     width:150px;
     height: 150px;
-    background-color: #F8B5D0 ;
-    box-sizing:border-box ;
+    background-color: #F8B5D0;
+    box-sizing:border-box;
+    border-radius: 6px;
     font-size: 20px;
     font-weight: bold;
     margin: 20px;
@@ -96,7 +110,7 @@
     justify-content: center;
     padding-left: 30px;
     padding-top:50px ;
-    border: 5px solid red;
+    border: 2px solid red;
  
 }
     
@@ -105,14 +119,14 @@
     
 
 input{
-    width: 80%;
+    width: 55%;
     padding: 6px 20px;
     margin: 38px 0;
-    box-sizing: border-box;
     border: none;
-    border-bottom: 2px solid red;
-    font-size: 15px;
-    font-family: Verdana;
+    border-bottom: 2px solid hsl(9, 91%, 50%);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "poppins",sans-serif;
     letter-spacing: 1px;
     text-align: center;
     
@@ -128,8 +142,175 @@ input{
     padding:16px ;
     font-size: 24px;
     font-weight: bold;
-    background-color: tomato;
+    background-color: rgb(255, 14, 14);
     border-radius: 12px;
     color: white;
 
 }
+.container{
+    height: auto;
+    width: 100%;
+    padding-top: 130px;
+   
+   
+}
+    
+.main-container{
+    height: auto;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    
+}
+h3{
+    font-family: "poppines",sans-serif;
+    font-size: 35px;
+   
+   
+}
+#para-id{
+    font-family: "poppines", sans-serif;
+    font-size: 25px;  
+    text-decoration: none;
+    
+}
+
+   
+
+
+.layout-div-1{
+    height: 350px;
+    width: 400px;
+    margin: 15px;
+    padding-top: 80px;
+    padding-left: 15px;
+    border-radius: 10px;
+    background-color: #e6f3c9;
+    box-shadow: 14px 13px 10px rgb(188, 184, 179);
+    
+}
+
+.layout-div-2{
+    height: 350px;
+    width: 405px;
+    margin :15px;
+    padding-top: 80px;
+    padding-left: 15px;
+    border-radius: 10px;
+    background-color: rgb(202, 189, 205);
+    box-shadow:14px 13px 10px rgb(188, 184, 179);
+}
+.layout-div-3{
+    height: 350px;
+    width: 400px;
+    margin: 15px;
+    padding-top: 80px;
+    padding-left: 15px;
+    border-radius: 10px;
+    background-color: rgb(163, 247, 252);
+    box-shadow:14px 13px 10px rgb(188, 184, 179);
+}
+
+.show-case-1{
+    width: 100%;
+    height: auto;
+    padding-top:100px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 14px 13px 10 px beige;
+   
+    
+   
+}
+
+.left-child{
+    height: auto;
+    width: 40%;
+    margin: 16px;
+    color: #0d1f20;
+    padding-left: 5px;
+    border: none;
+    border-radius: 8px;
+    
+    
+}
+
+.right-child{
+    margin: 16px;
+    width: 37%;
+    
+}
+
+
+
+
+
+.box-1{
+   
+    height: 360px;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+
+
+.box-2{
+   
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    background-color: #f9f7d0;
+    margin: 12px 160px;
+    border-radius: 10px;
+    
+}
+
+.int-class{
+    height: 60px;
+    font-family: "poppins",sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid rgb(236, 204, 204);
+    background-color: #d2e3e4;
+    box-sizing: border-box;
+
+}
+.int-hero-btn{
+    height: 60px;
+    padding:12px ;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(255, 6, 6);
+    box-sizing: border-box;
+    color: white;
+}
+.foter-div{
+    width: 100%;
+    height: 180px;
+    margin-top: 250px;
+    
+    position: relative;
+    background-color: #040404;
+
+}
+footer{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #00e1ff;
+  
+}
+
+
+
+
+  
